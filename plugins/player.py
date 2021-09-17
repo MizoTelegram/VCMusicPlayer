@@ -720,5 +720,5 @@ async def not_chat(_, m: Message):
             InlineKeyboardButton('Help & Commands 🆘', callback_data='help')       
         ]
         ]
-    k=await m.reply("<b>He Group-ah hian Bot hi i hmang thei lo. Chuvângin nangma Pualin [SOURCE CODE](https://github.com/ZauteKm/ZoRadioBot) aṭangin va siam rawh!.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply("<b>He Group-ah hian Bot hi i hmang thei lo. Chuvângin nangma Pualin [Source Code](https://github.com/ZauteKm/ZoRadioBot) aṭangin va siam rawh!.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
