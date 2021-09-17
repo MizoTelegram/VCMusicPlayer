@@ -1,8 +1,8 @@
 {
-  "name": "tgvc-RadioBot",
+  "name": "ZoRadioBot",
   "description": "An Telegram Bot Maded By Zaute to Play Nonstop Radio/Music in Telegram Voice Chats",
-  "repository": "https://github.com/ZauteKm/tgvc-RadioBot",
-  "logo": "https://telegra.ph/file/a247cefef0c9fd6308ee2.jpg",
+  "repository": "https://github.com/ZauteKm/ZoRadioBot",
+  "logo": "https://telegra.ph/file/7fd99484aae4abeb10a76.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -64,7 +64,7 @@
     },
     "REPLY_MESSAGE": {
       "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
-      "value": "Hello, Kei hi Radio/Music Player ka ni a, Mahse i Group-ah min hmang thei lo. Nangma pualin i siam ve mai dawnnia.",
+      "value": "Hello, Kei hi @MizoTelegram Radio/Music Player ka ni a, Mahse i Group-ah min hmang thei lo. Nangma pualin i siam ve mai dawnnia.",
       "required": false
     }
   },
