@@ -1,4 +1,4 @@
-# tgvc-RadioBot | Mizo
+# ZoRadioBot | All India Radio Aizâwl
 
 He Telegram Bot hian VoiceChat ah Hla a play thei a, Audio/YouTube/Deezer a Support bawk.
 YouTube Live Stream a Support bawk tih hriattur.
@@ -67,7 +67,7 @@ License -> https://github.com/zautekm/tgvc-RadioBot/blob/master/LICENSE
 <details><summary><b>Deploy to Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/tgvc-RadioBot">
+<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/ZoRadioBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 
 <a href="https://youtu.be/FKaAU4Pr2bw"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Heroku-blue.svg?logo=Youtube"></a>
@@ -93,8 +93,8 @@ License -> https://github.com/zautekm/tgvc-RadioBot/blob/master/LICENSE
 <br/>
 
 ```sh
-git clone https://github.com/MizoTelegram/tgvc-RadioBot
-cd tgvc-RadioBot
+git clone https://github.com/ZauteKm/ZoRadioBot
+cd ZoRadioBot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 main.py
