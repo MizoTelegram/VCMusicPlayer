@@ -128,7 +128,7 @@ async def yplay(_, message: Message):
                 type="query"
                 ysearch=query
         else:
-            d=await message.reply_text("You Didn't gave me anything to play. Send me a audio file or reply /play to an audio file.")
+            d=await message.reply_text("Hla Play tûr engmah min pe lo.\n• Audio file lo thawn la /play tiin Reply rawh.\nYouTube aṭanga i Play duh chuan /play [hla hming] / [YouTube Video link]\n\n**Entîrnan:**\n• /play Pathian hmangaihna\n•/play https://youtu.be/TCTmnFfvcP8")
             await mp.delete(d)
             await mp.delete(message)
             return
@@ -712,13 +712,13 @@ allcmd = ["play", "player", f"play@{U}", f"player@{U}"] + admincmds
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚠️ Deploy to Heroku', url='https://heroku.com/deploy?template=https://github.com/ZauteKm/tgvc-RadioBot'),
-            InlineKeyboardButton('Source Code 👨‍💻', url='https://github.com/ZauteKm/tgvc-RadioBot'),
+            InlineKeyboardButton('⚠️ Deploy to Heroku', url='https://heroku.com/deploy?template=https://github.com/ZauteKm/ZoRadioBot'),
+            InlineKeyboardButton('Source Code 👨‍💻', url='https://github.com/ZauteKm/ZoRadioBot'),
         ],
         [
-            InlineKeyboardButton('✅ How to Make', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('✅ A Siam Dan Tur', url='https://t.me/ZauteKm/580'),
             InlineKeyboardButton('Help & Commands 🆘', callback_data='help')       
         ]
         ]
-    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/LushaiMusic/VCMusicPlayer) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply("<b>He Group-ah hian Bot hi i hmang thei lo. Chuvângin nangma Pualin [SOURCE CODE](https://github.com/ZauteKm/ZoRadioBot) aṭangin va siam rawh!.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
