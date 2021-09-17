@@ -43,19 +43,19 @@ HELP = """
 
 **Admin Commands:**
 ▷/skip **[n]** ...  Skip current or n where n >= 2
-▷/join: Join voice chat.
-▷/leave: Leave current voice chat
-▷/vc: Check which VC is joined.
-▷/stop: Stop playing.
-▷/radio: Start Radio.
-▷/stopradio: Stops Radio Stream.
-▷/replay: Play from the beginning.
-▷/clean: Remove unused RAW PCM files.
-▷/pause: Pause playing.
-▷/resume: Resume playing.
+▷/join: VoiceChat join tirna.
+▷/leave: VoiceChat Leave tirna.
+▷/vc: VoiceChat join & join loh enna.
+▷/stop: Hla play-lai tih tawpna.
+▷/radio: Radio LiveStream-na.
+▷/stopradio: Radio Stream tihtawp na.
+▷/replay: A bul aṭanga Hla Play-lehna.
+▷/clean: RAW PCM Files Paihfai-na.
+▷/pause: Hla Play-lai Pause-na.
+▷/resume: Hla Pause kha Resume lehna.
 ▷/volume: Change volume(0-200).
-▷/mute: Mute in VC.
-▷/unmute: Unmute in VC.
+▷/mute: VoiceChat mute na.
+▷/unmute: VoiceChat unmute leh na.
 ▷/restart: Restarts the Bot.
 """
 
@@ -65,7 +65,7 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/tgvc-RadioBot'),
+        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/ZoRadioBot'),
     ],
     [
         InlineKeyboardButton('👥 Group', url='https://t.me/mizotelegram/106'),
@@ -86,14 +86,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/ZoRadioBot'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/mizotelegram'),
+            InlineKeyboardButton('👥 Group', url='https://t.me/mizotelegram?voicechat=4a8bd56c407650a24c'),
             InlineKeyboardButton('Channel 📢', url='https://t.me/infotelmizo'),
         ],
         [
-            InlineKeyboardButton('👉 Deploy your Own ⚠️', url='https://t.me/c/1481808444/131'),
+            InlineKeyboardButton('👉 Deploy your Own ⚠️', url='https://t.me/ZauteKm/580'),
         
         ]
     ]
