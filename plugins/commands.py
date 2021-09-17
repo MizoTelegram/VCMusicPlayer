@@ -32,7 +32,7 @@ from signal import SIGINT
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nKei hi 24×7 Mizo Radio/Music Player ka ni e!</b>"
+HOME_TEXT = "<b>Hello, [{}](tg://user?id={})\n\nKei hi @MizoTelegram Radio/Music 24×7 Player ka ni e!</b>"
 HELP = """
 **User Commands:**
 ▷/play **[hla hming]/[yt link]**: Audio file Reply Rawh!
