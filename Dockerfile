@@ -1,11 +1,12 @@
-FROM debian:latest
+FROM python:latest
 
 RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
 RUN pip3 install -U pip
+COPY requirements.txt /requirements.txt
 RUN cd /
-RUN git clone https://github.com/ZauteKm/ZoRadioBot.git
-RUN cd ZoRadioBot
-WORKDIR /ZoRadioBot
 RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+RUN mkdir /ZoRadioBot
+WORKDIR /ZoRadioBot
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
