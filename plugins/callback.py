@@ -26,27 +26,28 @@ from config import Config
 playlist=Config.playlist
 
 HELP = """
-*User Commands:**
+**User Commands:**
 ▷/play **[hla hming]/[yt link]**: Audio file Reply Rawh!
 ▷/dplay **[hla hming]:** Deezer Music aṭanga play na.
 ▷/player: Hla play mek enna.
 ▷/help: Min Commands theihna tur.
 ▷/playlist: Playlists enna.
+
 **Admin Commands:**
 ▷/skip **[n]** ...  Skip current or n where n >= 2
-▷/join: Join voice chat.
-▷/leave: Leave current voice chat
-▷/vc: Check which VC is joined.
-▷/stop: Stop playing.
-▷/radio: Start Radio.
-▷/stopradio: Stops Radio Stream.
-▷/replay: Play from the beginning.
-▷/clean: Remove unused RAW PCM files.
-▷/pause: Pause playing.
-▷/resume: Resume playing.
+▷/join: VoiceChat join tirna.
+▷/leave: VoiceChat Leave tirna.
+▷/vc: VoiceChat join & join loh enna.
+▷/stop: Hla play-lai tih tawpna.
+▷/radio: Radio LiveStream-na.
+▷/stopradio: Radio Stream tihtawp na.
+▷/replay: A bul aṭanga Hla Play-lehna.
+▷/clean: RAW PCM Files Paihfai-na.
+▷/pause: Hla Play-lai Pause-na.
+▷/resume: Hla Pause kha Resume lehna.
 ▷/volume: Change volume(0-200).
-▷/mute: Mute in VC.
-▷/unmute: Unmute in VC.
+▷/mute: VoiceChat mute na.
+▷/unmute: VoiceChat unmute leh na.
 ▷/restart: Restarts the Bot.
 """
 @Client.on_callback_query()
@@ -158,14 +159,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/tgvc-RadioBot'),
+                InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/ZoRadioBot'),
             ],
             [
                InlineKeyboardButton('👥 Group', url='https://t.me/mizotelegram/106'),
                InlineKeyboardButton('Channel 📢', url='https://t.me/joinchat/0io4YMY-xms1M2Q9'),
             ],
             [
-               InlineKeyboardButton('🛡️Nangma pualin i siam thei🛡️', url='https://t.me/c/1481808444/131'),
+               InlineKeyboardButton('🛡️Nangma pualin i siam thei🛡️', url='https://t.me/ZauteKm/580'),
         
             ]
         ]
