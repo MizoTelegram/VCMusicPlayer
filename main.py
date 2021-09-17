@@ -46,75 +46,75 @@ bot.send(
         commands=[
             types.BotCommand(
                 command="start",
-                description="Check if bot alive"
+                description="Bot a nung leh nun loh enna"
             ),
             types.BotCommand(
                 command="help",
-                description="Shows help message"
+                description="Bot-in a puih theihna te"
             ),
             types.BotCommand(
                 command="play",
-                description="Play song from youtube/audiofile"
+                description="Hla (MP3) YouTube/AudioFile aṭanga na"
             ),
             types.BotCommand(
                 command="dplay",
-                description="Play song from Deezer"
+                description="Deezer aṭanga Hla Play-na"
             ),
             types.BotCommand(
                 command="player",
-                description="Shows current playing song with controls"
+                description="Hla Play lai mêk enna"
             ),
             types.BotCommand(
                 command="playlist",
-                description="Shows the playlist"
+                description="Playlist enna"
             ),
             types.BotCommand(
                 command="skip",
-                description="Skip the current song"
+                description="Hla play laia Skip-na"
             ),
             types.BotCommand(
                 command="join",
-                description="Join VC"
+                description="VoiceChat Join tirna"
             ),
             types.BotCommand(
                 command="leave",
-                description="Leave from VC"
+                description="VoiceChat Leave tirna"
             ),
             types.BotCommand(
                 command="vc",
-                description="Ckeck if VC is joined"
+                description="VoiceChat join lai enna"
             ),
             types.BotCommand(
                 command="stop",
-                description="Stops Playing"
+                description="Hla Play lai mek tihtawp na"
             ),
             types.BotCommand(
                 command="radio",
-                description="Start radio / Live stream"
+                description="Radio/Live Stream Start-na"
             ),
             types.BotCommand(
                 command="stopradio",
-                description="Stops radio/Livestream"
+                description="Radio/Live Stream tih tawpna"
             ),
             types.BotCommand(
                 command="replay",
-                description="Replay from beggining"
+                description="A bul aṭanga Play lehna"
             ),
             types.BotCommand(
                 command="clean",
-                description="Cleans RAW files"
+                description="RAW Files Clear-na"
             ),
             types.BotCommand(
                 command="pause",
-                description="Pause the song"
+                description="Hla Pause na"
             ),
             types.BotCommand(
                 command="resume",
-                description="Resume the paused song"
+                description="Pause lai mek Resume lehna"
             ),
             types.BotCommand(
                 command="mute",
-                description="Mute in VC"
+                description="VoiceChat mute na"
             ),
             types.BotCommand(
                 command="volume",
@@ -122,7 +122,7 @@ bot.send(
             ),
             types.BotCommand(
                 command="unmute",
-                description="Unmute in VC"
+                description="VoiceChat unmute leh na"
             ),
             types.BotCommand(
                 command="restart",
